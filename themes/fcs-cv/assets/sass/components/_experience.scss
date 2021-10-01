@@ -1,0 +1,149 @@
+.experience {
+    &__item {
+        display: block;
+        @include avoid-break;
+        &:not(:first-child) {
+            padding-top: 1.5rem;
+        }
+    }
+
+    &__header,
+    &__subheader {
+        display: block;
+        width: 100%;
+        height: 2.4rem;
+    }
+
+     &__univ {
+        text-align: left;
+        width: 90%;
+        float: left;
+        text-transform: uppercase;
+    }
+
+    &__job {
+        position: relative;
+        transition: transform 0.2s cubic-bezier($cubic);
+
+        &:hover {
+            transform: translateX(0.5rem);
+        }
+    }
+
+    &__company,
+    &__position {
+        text-align: left;
+        width: 70%;
+        float: left;
+    }
+
+    &__company {
+        font-size: 1.55rem;
+        color: $color-secondary;
+        font-weight: bold;
+
+        @media print {
+            font-size: 1.55rem;
+            font-weight: bold;
+            color: #5E5E5E;
+        }
+    }
+
+    &__position {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: $color-grey-dark;
+
+        @media print {
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            color: #686868;
+        }
+    }
+
+    &__date,
+    &__place {
+        float: right;
+        text-align: right;
+        width: 30%;
+        color: $color-secondary;
+
+        @media print {
+            float: right;
+            text-align: right;
+            width: 30%;
+            font-weight: bold;
+            color: #5E5E5E;
+        }
+    }
+
+    &__date {
+        font-weight: 400;
+    }
+
+    &__place {
+        &::before {
+            font-family: 'Material Icons';
+            color: $color-primary;
+            font-size: 1.4rem;
+            content: 'place';
+            display: inline-block;
+            padding-right: 3px;
+            vertical-align: middle;
+            font-weight: 900;
+
+            @media print {
+                font-family: 'Material Icons';
+                color: $color-primary;
+                font-size: 1.4rem;
+                content: 'place';
+                display: inline-block;
+                padding-right: 3px;
+                vertical-align: middle;
+                font-weight: 900;
+            }
+        }
+    }
+
+    &__bullet {
+        list-style-position: inside;
+
+        @media print {
+            list-style-position: inside;
+        }
+    }
+
+    &__badges {
+        display: block;
+        text-align: right;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+        @media print {
+            display: block;
+            text-align: right;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__badge {
+        font-size: 0.9rem;
+        font-weight: 400;
+        display: inline-block;
+        background-color: $color-primary;
+        color: $color-primary-text;
+        border-radius: 1rem;
+        padding: 0.1rem 0.6rem;
+
+        @media print {
+            font-size: 0.9rem;
+            font-weight: 400;
+            display: inline-block;
+            background-color: $color-primary;
+            color: $color-primary-text;
+            border-radius: 1rem;
+            padding: 0.1rem 0.6rem;
+        }
+    }
+}

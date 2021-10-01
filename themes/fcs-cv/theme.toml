@@ -1,0 +1,11 @@
+name = "FCS CV"
+license = "MIT"
+description = "Curriculum Vitae."
+homepage = "https://fcsest.github.io"
+tags = ["cv", "resume", "minimal", "simple"]
+features = ["simple", "cv", "printable"]
+min_version = "0.41.0"
+
+[author]
+  name = "Fernando Souza"
+  homepage = "fcsest.github.io"

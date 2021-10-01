@@ -1,0 +1,59 @@
+.sideSection {
+    display: block;
+    margin-bottom: 3rem;
+    @include avoid-break;
+
+    &__heading {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        position: relative;
+        color: #FF8132;
+
+        @media print {
+            position: relative;
+            color: #2B2B2B;
+        }
+
+        &::after,
+        &::before {
+            content: '';
+            position: absolute;
+            border-top: 1px solid $color-secondary;
+            border-bottom: 1px solid $color-secondary;
+            width: 10rem;
+            height: 4px;
+            margin-top: 1.1rem;
+
+            @media print {
+                content: '';
+                position: absolute;
+                border-top: 1px solid $color-white;
+                border-bottom: 1px solid $color-white;
+                width: 10rem;
+                height: 4px;
+                margin-top: 1.1rem;
+            }
+        }
+
+        &::after {
+            margin-left: 1rem;
+        }
+
+        &::before {
+            margin-left: -11rem;
+        }
+
+        &:hover::after, &:hover::before {
+            border-color: $color-primary;
+        }
+    }
+
+    & li {
+        list-style: none;
+    }
+}

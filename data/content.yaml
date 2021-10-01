@@ -1,0 +1,82 @@
+BasicInfo:
+  FirstName: Vítor
+  LastName: Venturini
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-map-marker-alt
+      Info: São Sebastião, Porto Alegre
+      Link: https://google.com/maps/place/São+Sebastião,+Porto+Alegre+-+RS
+    - Icon: fas fa-phone
+      Info: +55 051 99533 0351
+      Link: https://wa.me/+55051995330351
+    - Icon: fas fa-envelope
+      Info: vitorventurini169@gmail.com
+      Link: mailto:vitorventurini169@gmail.com
+
+Profile: Gosto de trabalhar, tenho fácil aprendizado, estou apto a conhecer novas funções dentro e fora da empresa, consigo trabalhar em grupo muito bem. Pretendo trabalhar para conquistar meus objetivos de vida.
+
+Experience:
+  - Employer: Sturmer Advogados
+    Place: Porto Alegre, RS
+    Positions:
+      - Title: Auxiliar Administrativo
+        Date: Fev 2019 - Nov 2020
+        Details:
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Badges: ['Word', 'Excel']
+  - Employer: Digimer
+    Place: Porto Alegre, RS
+    Positions:
+      - Title: Office Boy
+        Date: Out 2017 - Jun 2018
+        Details:
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Badges: ['Word', 'Excel']
+  - Employer: Assets Auditores Associados
+    Place: Porto Alegre, RS
+    Positions:
+      - Title: Auxiliar administrativo
+        Date: Out 2014 - Abr 2016
+        Details:
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Badges: ['Word', 'Excel']
+      - Title: Office Boy
+        Date: Mai 2014 - Jul 2014
+        Details:
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Badges: ['Word', 'Excel']
+   
+Education:
+  - Course: Curso de Inglês
+    Place: UFRGS - Nele
+    Date: Cursando 
+  - Course: Ensino Médio
+    Place: Colégio Estadual Piratini
+    Date: 2013 - 2013
+  - Course: Ensino Médio
+    Place: Instituto Vicente Pallotti
+    Date: 2010 - 2012  
+
+
+Skills:
+  - Family: Carteiras de Habilitação
+    Items:
+      - Categoria B
+  - Family: Programas de Produtividade
+    Items:
+      - Google Tools
+      - Microsoft Office
+
+Languages:
+  - Name: Português
+    Level: Nativo
+  - Name: English
+    Level: Intermediário

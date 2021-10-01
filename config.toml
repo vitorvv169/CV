@@ -1,0 +1,15 @@
+baseURL = "https://vitorvv169.github.io/CV"
+languageCode = "pt-br"
+theme = "fcs-cv"
+title = "Vítor Venturini - Currículo"
+publishDir = "./docs"
+
+[params]
+colorPageBackground = "#1c1c1c"         # Cor do background da página
+colorLight = "#404040"                  # Cor do background do cv
+colorDark = "#ededed"                   # Cor dos textos
+colorPrimary = "#ff6600"                # Cor de destaque em tags/icones
+colorPrimaryText = "#ffffff"            # Cor de dentro dos icones/tags
+colorRightColumnBackground = "#404040"  # Cor de background da coluna
+colorSecondary = "#ffffff"                 # Cor dos separadores
+pages = 1
